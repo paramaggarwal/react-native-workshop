@@ -5,13 +5,6 @@ A one day workshop on React Native, organised by OF10, Powai on 25th Feb, 2017.
 
 You can explore [the slides](Slides.pdf) to get an overall structure. The slides about the [internals of React Native](Under_the_hood.pdf) are also available.
 
-# Summary
-
-1. Download 2000 images from the Myntra catalog.
-2. Using only the ones that are either topwear/bottomwear, we train a network.
-3. The network is a Convolutional Neural Network built using Keras.
-4. We test the model on five random images from the catalog.
-
 # Install
 
 1. Install Node.js using Homebrew.
