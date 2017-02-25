@@ -21,8 +21,5 @@ export default class RNWorkshop extends Component {
   }
 }
 
-// web
-ReactDOM.render(<RNWorkshop/>, document.body);
 
-// native
 AppRegistry.registerComponent('RNWorkshop', () => RNWorkshop);

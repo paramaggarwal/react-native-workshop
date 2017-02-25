@@ -6,7 +6,6 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View,
@@ -41,14 +40,12 @@ export default class App extends Component {
           value={this.state.text}
         />
 
-        <Text style={styles.instructions}>
-          {/*JSON.stringify(this.state.items)*/}
-        </Text>
         {this.state.items.map((item)=>{
           return (<Text style={styles.instructions}>
             {item}
           </Text>)
         })}
+        
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
